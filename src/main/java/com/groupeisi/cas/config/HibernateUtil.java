@@ -6,14 +6,10 @@ import org.hibernate.boot.registry.StandardServiceRegistryBuilder;
 import org.hibernate.cfg.AvailableSettings;
 import org.hibernate.cfg.Configuration;
 import org.hibernate.service.ServiceRegistry;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-
 import java.util.Properties;
 
 public class HibernateUtil {
    private static SessionFactory sessionFactory;
-   private static Logger LOG = LoggerFactory.getLogger(HibernateUtil.class);
    private HibernateUtil() {
        
    }

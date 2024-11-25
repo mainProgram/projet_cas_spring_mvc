@@ -1,4 +1,7 @@
 package com.groupeisi.cas.dao;
 
-public class ProductDao {
+import com.groupeisi.cas.entity.ProductEntity;
+
+public class ProductDao extends RepositoryImpl<ProductEntity> implements IProductDao{
+
 }
